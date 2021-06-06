@@ -1,0 +1,66 @@
+.toDoLabel,
+.Label {
+  margin: 0 auto;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+.toDoContainer,
+.Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  margin-bottom: 0.4rem;
+}
+
+.toDoInput,
+.Input {
+  border-radius: 0.5rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.submitContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.submitButton {
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+  
+}
+
+.toggleButton {
+  height: 1.2rem;
+}
+.formContainer {
+  /* border: 1px #e76f51 solid; */
+  max-width: 29rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 1px #e9c46a;
+  background-color: #1d3557;
+  margin-bottom: 1rem;
+}
+
+.magic{
+  border-bottom: dashed 1px;
+}
+
+form {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+input, button, submit{
+  border:none;
+  outline:none;
+  box-shadow: 0px 0px 2px 1px violet;
+}
+button {
+  color: white;
+  background-color: inherit;
+  font-size: 1rem;
+}

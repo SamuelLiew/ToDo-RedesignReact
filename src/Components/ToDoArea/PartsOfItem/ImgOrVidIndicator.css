@@ -1,0 +1,20 @@
+.indicator-box{
+    display: flex;
+    flex-direction: column;
+    width: 40.05px;
+}
+
+.Img-indicator, .Vid-indicator, .Img-No, .Vid-No{
+    height: 18px;
+    width: 20px;
+    border-radius: 0.7rem;
+    margin: 0 auto;
+}
+
+.Img-indicator{
+    background-color: aqua;
+}
+
+.Vid-indicator{
+    background-color:orange;
+}

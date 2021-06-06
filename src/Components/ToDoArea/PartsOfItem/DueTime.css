@@ -1,0 +1,8 @@
+.time-cover {
+    width:40.05px;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  max-width: 3rem;
+}
