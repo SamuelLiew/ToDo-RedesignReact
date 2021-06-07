@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# To Do List Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an online To Do List Web Application that can be used by the masses. One of the main motivator to the creation of this application is my desire to be more efficient as a developer. Having a great To Do Application that I can be proud of and use in a day to day basis is a huge motivator. This Application is a side project to supplement my education. 
+
+## Features
+* Ability to add a To Do
+* Ability to add a Due Time
+* Ability to add a Video
+* Ability to add an Image
+* Collapse and Expand To Do
+
+![Results Demonstration](https://raw.githubusercontent.com/SamuelLiew/ToDo-RedesignReact/main/src/Images/Results%20Demonstration.png?token=AMMRZMTMU6MDOLAH6I7ZUK3AXXGPO)
+
 
 ## Available Scripts
 
