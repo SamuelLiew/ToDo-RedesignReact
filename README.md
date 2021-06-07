@@ -1,4 +1,4 @@
-[Title](https://github.com/SamuelLiew/ToDo-RedesignReact#to-do-list-web-applicationn) • [Features](https://github.com/SamuelLiew/ToDo-RedesignReact#features) • [Installation](https://github.com/SamuelLiew/ToDo-RedesignReact#how-to-install) • [Usage](https://github.com/SamuelLiew/ToDo-RedesignReact#how-to-use) • Examples • Technologies • Contribution • License
+[Title](https://github.com/SamuelLiew/ToDo-RedesignReact#to-do-list-web-applicationn) • [Features](https://github.com/SamuelLiew/ToDo-RedesignReact#features) • [Installation](https://github.com/SamuelLiew/ToDo-RedesignReact#how-to-install) • [Examples](https://github.com/SamuelLiew/ToDo-RedesignReact#examples) • [Usage](https://github.com/SamuelLiew/ToDo-RedesignReact#how-to-use) • [Technologies](https://github.com/SamuelLiew/ToDo-RedesignReact#technologies-used) • [Contribution](https://github.com/SamuelLiew/ToDo-RedesignReact#contribution) • [License](https://github.com/SamuelLiew/ToDo-RedesignReact#license)
 # To Do List Web Application
 
 This is an online To Do List Web Application that can be used by the masses. One of the main motivator to the creation of this application is my desire to be more efficient as a developer. Having a great To Do Application that I can be proud of and use in a day to day basis is a huge motivator. On top of that, this Application is a side project to supplement my education. 
@@ -31,6 +31,8 @@ This will install all the necessary packages in the local save of the project. T
 ### npm start
 This will start the program and host it locally. 
 
+## Examples
+
 ## How To Use:
 
 There is a help section in the web application itself(with images), but here you go: 
@@ -47,14 +49,14 @@ There is a help section in the web application itself(with images), but here you
 9. If you want to delete a ToDo then click on the general location of the indicators. 
 10. If you want to collapse or expand, click once on the ToDo.
 
-## Examples
-
 ## Technologies Used: 
 
-React: 17.0.2
-Netlify
-VSCode
+* React: 17.0.2
+* Netlify
+* VSCode
 
 ## Contribution
+Contributions are welcome, it is a way everybody can improve.
 
 ## License
+[MIT License](https://choosealicense.com/licenses/mit/)
