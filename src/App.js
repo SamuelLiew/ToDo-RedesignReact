@@ -2,6 +2,7 @@ import NewToDo from "./Components/InputArea/NewToDo";
 import ToDoArea from "./Components/ToDoArea/ToDoArea";
 import React, { useState } from "react";
 import Card from "./Components/UI/Card";
+import Help from "./Components/Help/Help";
 const dummy = [
   {
     Key: "e1",
@@ -22,6 +23,7 @@ const dummy = [
 
 const App = () => {
   const [ToDoList, updateToDoList] = useState(dummy);
+  const [HelpRequest, updateHelp] = useState(false);
   const addHandler = (addToDo) => {
     updateToDoList((prevToDoList) => {
       return [...prevToDoList, addToDo];
@@ -36,14 +38,29 @@ const App = () => {
     ToDoList.splice(objectFound, 1);
     updateToDoList(ToDoList);
   };
-  return (
+
+  const helpRequestHandler = () => {updateHelp(true)};
+  const exitHandler = () => {updateHelp(false)}
+  const helpCard = (
+    <Card>
+      <Help onExit={exitHandler}/>
+    </Card>
+  );
+  const theRest = (
     <div>
       <Card>
-        <NewToDo onAdd={addHandler} />
+        <NewToDo onAdd={addHandler} onHelpRequest={helpRequestHandler} />
       </Card>
       <Card>
         <ToDoArea list={ToDoList} onDeleteByKey={deleteHandler} />
       </Card>
+    </div>
+    
+  )
+  return (
+    <div>
+      {HelpRequest && helpCard}
+      {!HelpRequest && theRest}
     </div>
   );
 };

@@ -26,9 +26,7 @@
 
 .submitButton {
   border-radius: 1rem;
-  margin-top: 0.5rem;
-  padding: 0.2rem;
-  
+  margin-top: 0.5rem;  
 }
 
 .toggleButton {
@@ -47,6 +45,11 @@
 
 .magic{
   border-bottom: dashed 1px;
+}
+
+.questionButton{
+  float: left;
+  border-radius:1rem;
 }
 
 form {

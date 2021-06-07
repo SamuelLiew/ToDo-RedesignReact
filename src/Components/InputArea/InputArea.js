@@ -1,7 +1,7 @@
 import "./InputArea.css";
 import React, { useState } from "react";
 import { IoAddOutline } from "react-icons/io5";
-
+import {BsQuestion} from 'react-icons/bs';
 const InputArea = (props) => {
   const [ToDo, updateToDo] = useState("");
   const [ImgLink, updateImgLink] = useState("");
@@ -48,6 +48,10 @@ const InputArea = (props) => {
     Advanced === true ? updateAdvanced(false) : updateAdvanced(true);
   };
 
+  const helpHandler = () => {
+    props.onHelpRequest("HELP")
+  }
+  
   const AdvancedInput = (
     <div>
       <div className="Container">
@@ -83,6 +87,9 @@ const InputArea = (props) => {
 
   return (
     <div className="formContainer" onDoubleClick={advancedHandler}>
+      <button className="questionButton" onClick={helpHandler}>
+        <BsQuestion/>
+      </button>
       <form onSubmit={submitHandler}>
         <div className="toDoContainer">
           <label className="toDoLabel">To Do</label>
@@ -91,7 +98,7 @@ const InputArea = (props) => {
             type="text"
             value={ToDo}
             onChange={toDoHandler}
-            maxlength={30}
+            maxLength={30}
             required
           ></input>
         </div>

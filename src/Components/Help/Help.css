@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.option-buttons, .exit-button{
+    display:flex;
+}
+.option-buttons{
+    justify-content:space-around;
+}
+.exit-button{
+    justify-content:center;
+}
+.exit-button button, .option-buttons button{
+    box-shadow: none;
+    font-size: 1.5rem;
+    color: black;
+}
+img{
+    max-width: 32rem;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+}

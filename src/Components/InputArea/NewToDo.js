@@ -4,8 +4,11 @@ const NewToDo = (props) => {
     const addToDoHandler = toDoData =>{
         props.onAdd(toDoData);
     }
+    const helpRequestHandler = helpRequest => {
+        props.onHelpRequest(helpRequest)
+    }
     return (
-        <InputArea onAddToDo = {addToDoHandler}/>
+        <InputArea onAddToDo = {addToDoHandler} onHelpRequest={helpRequestHandler}/>
     )
 }
 
