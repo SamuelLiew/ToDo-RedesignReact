@@ -23,7 +23,7 @@ This is an online web application, so all you need is an internet connection.
 
 
 But if desired, installation could be done by downloading the zip file and extracting it.
-Open the directory in the command propmt/terminal and run the command:
+Open the directory in the command prompt/terminal and run the command:
 
 ### npm install 
 This will install all the necessary packages in the local save of the project. The next step would be to run the program. 
@@ -39,13 +39,12 @@ There is a help section in the web application itself(with images), but here you
 
 1. Start by opening the application
 2. Under ToDo input the task that you want to complete
-(Optional)
-3. Double click/tap on the darker shade nearby the input field to access Advanced Controls.
-4. To add a Due date, click on the date input area and input the date you want it due.
-5. Search for the image you want and get the image link and paste it under Image.
-6. Search for the YouTube link you want and get the video link and paste it under Video.
-7. Click on the Plus Sign and the application will add a new To Do at the bottom of the list
-8. The Indicator on the right will tell you if there is a video or an image
+3. Double click/tap on the darker shade nearby the input field to access Advanced Controls. [OPTIONAL]
+4. To add a Due date, click on the date input area and input the date you want it due.[OPTIONAL]
+5. Search for the image you want and get the image link and paste it under Image.[OPTIONAL]
+6. Search for the YouTube link you want and get the video link and paste it under Video.[OPTIONAL]
+7. Click on the Plus Sign and the application will add a new To Do at the bottom of the list.
+8. The Indicator on the right will tell you if there is a video or an image.
 9. If you want to delete a ToDo then click on the general location of the indicators. 
 10. If you want to collapse or expand, click once on the ToDo.
 
