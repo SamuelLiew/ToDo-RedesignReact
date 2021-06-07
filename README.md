@@ -5,7 +5,7 @@ This is an online To Do List Web Application that can be used by the masses. One
 
 Demo: https://todo-redesignreact.netlify.app/
 
-## Features:
+## 🎁 Features:
 
 * Ability to add a To Do
 * Ability to add a Due Time
@@ -17,7 +17,7 @@ Demo: https://todo-redesignreact.netlify.app/
 ![Results Demonstration](https://i.ibb.co/nDLn31m/Results-Demonstration.png)
 
 
-## How To Install: 
+## 📦 How To Install: 
 
 This is an online web application, so all you need is an internet connection. 
 
@@ -31,9 +31,9 @@ This will install all the necessary packages in the local save of the project. T
 ### npm start
 This will start the program and host it locally. 
 
-## Examples
+## 🏫 Examples
 
-## How To Use:
+## 🚀 How To Use:
 
 There is a help section in the web application itself(with images), but here you go: 
 
@@ -49,14 +49,14 @@ There is a help section in the web application itself(with images), but here you
 9. If you want to delete a ToDo then click on the general location of the indicators. 
 10. If you want to collapse or expand, click once on the ToDo.
 
-## Technologies Used: 
+## 📱 Technologies Used: 
 
 * React: 17.0.2
 * Netlify
 * VSCode
 
-## Contribution
+## 🆕 Contribution
 Contributions are welcome, it is a way everybody can improve.
 
-## License
+## 📄 License
 [MIT License](https://choosealicense.com/licenses/mit/)
