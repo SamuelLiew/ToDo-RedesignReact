@@ -18,7 +18,8 @@
     color: black;
 }
 img{
-    max-width: 32rem;
+    max-width: 21rem;
+    max-height: 13rem;
     margin: 0 auto;
 }
 
