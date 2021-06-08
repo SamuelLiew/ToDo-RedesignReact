@@ -51,6 +51,9 @@
   border-radius:1rem;
   width: 1.5rem;
   margin-top: 0.5rem;
+  display: flex;
+  justify-content:center;
+  height: 21px;
 }
 
 .supporter{
