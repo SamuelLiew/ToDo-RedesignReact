@@ -41,19 +41,24 @@ const ToDoItem = (props) => {
     ></iframe>
   );
 
+
   const errorHandler = () => {
     updateLink("");
   };
 
-  const media = (
-    <div className="media-container">
-      {videoLinksHandler(props.video) !== "" && videoMedia}
-      <img
+  const imageMedia = (
+    <img
         src={props.image}
         alt=""
         onError={errorHandler}
         className="media-elements"
       ></img>
+  )
+
+  const media = (
+    <div className="media-container">
+      {videoLinksHandler(props.video) !== "" && videoMedia}
+      {currentLink !== "" && imageMedia}
     </div>
   );
 
