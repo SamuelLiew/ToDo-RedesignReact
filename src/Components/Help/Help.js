@@ -34,6 +34,7 @@ const Help = (props) => {
           <ImExit />
         </button>
       </div>
+      <h2>Under Production</h2>
     </div>
   );
 
@@ -44,7 +45,7 @@ const Help = (props) => {
           <ImExit />
         </button>
       </div>
-      <h2>Double Click/Tap on the Darker area to access Advanced Controls</h2>
+      <h2>Double Click on the Darker area to access Advanced Controls</h2>
       <img
         src="https://i.ibb.co/QnWb79M/Input-Field.png"
         alt="Input Field"
@@ -89,7 +90,7 @@ const Help = (props) => {
         src="https://i.ibb.co/LSCSb5C/Input-Example.jpg"
         alt="Input Demo"
       ></img>
-      <h2>Pressing the Add Button will add a to do task as such</h2>
+      <h2>Clicking the Add Button will add a to do task as such</h2>
       <img
         src="https://i.ibb.co/nDLn31m/Results-Demonstration.png"
         alt="result Demo"

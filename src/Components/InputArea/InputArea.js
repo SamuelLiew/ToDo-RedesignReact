@@ -8,6 +8,7 @@ const InputArea = (props) => {
   const [Time, updateTime] = useState("");
   const [VidLink, updateVidLink] = useState("");
   const [Advanced, updateAdvanced] = useState(false);
+  const [isValid, updateIsValid] = useState(true)
 
   const vidLinkHandler = (e) => {
     updateVidLink(e.target.value);
@@ -27,7 +28,16 @@ const InputArea = (props) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
+    updateTime("");
+    updateToDo("");
+    updateVidLink("");
+    updateImgLink("");
 
+    if (ToDo.trim().length === 0) {
+      updateIsValid(false)
+      return;
+    }
+    updateIsValid(true)
     const toDoData = {
       Key: Math.random(),
       Text: ToDo,
@@ -35,11 +45,6 @@ const InputArea = (props) => {
       Time: Time,
       Video: VidLink,
     };
-
-    updateTime("");
-    updateToDo("");
-    updateVidLink("");
-    updateImgLink("");
 
     props.onAddToDo(toDoData);
   };
@@ -89,12 +94,9 @@ const InputArea = (props) => {
     <div className="formContainer" onDoubleClick={advancedHandler}>
       <form onSubmit={submitHandler}>
         <div className="toDoContainer">
-          <button className="questionButton" onClick={helpHandler}>
-            <BsQuestion />
-          </button>
           <label className="toDoLabel">To Do</label>
           <input
-            className="toDoInput"
+            className={`toDoInput ${!isValid ? "invalid" : ""}`}
             type="text"
             value={ToDo}
             onChange={toDoHandler}
@@ -104,9 +106,17 @@ const InputArea = (props) => {
         </div>
         {Advanced && AdvancedInput}
         <div className="submitContainer">
-          <button className="submitButton" type="submit">
-            <IoAddOutline />
-          </button>
+          <div className="supporter"></div>
+          <div className="submitButtonContainer">
+            <button className="submitButton" type="submit">
+              <IoAddOutline />
+            </button>
+          </div>
+          <div className="supporter">
+            <button className="questionButton" onClick={helpHandler}>
+              <BsQuestion />
+            </button>
+          </div>
         </div>
       </form>
     </div>
